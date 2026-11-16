@@ -123,9 +123,11 @@ Other entry points include `make check`, `make build-web`, and `make docker-buil
 - [Open-source license](LICENSE)
 - [Third-party notices](THIRD_PARTY_NOTICES.md)
 
-### Attribution and license
+### Project scope and licensing
 
-AnjuGuard extends [RASSAR by the University of Washington Makeability Lab](https://github.com/makeabilitylab/RASSAR) under its original [MIT license and copyright notices](LICENSE). See [third-party notices](THIRD_PARTY_NOTICES.md) for other dependencies. The project adds an older-adult-focused workflow, a web/FastAPI assessment pipeline, deterministic improvement rules, optional real-time guidance, and native iOS enhancements.
+AnjuGuard is an independently developed home-safety assessment and improvement project for older adults. Its current assessment workflow combines a React / TypeScript frontend, FastAPI services, deterministic improvement rules, and native iOS capture capabilities, rather than extending RASSAR's assessment workflow.
+
+[RASSAR by the University of Washington Makeability Lab](https://github.com/makeabilitylab/RASSAR) was an early research reference. This repository still contains historical iOS project files and related materials; their applicable copyright and license notices are retained in [LICENSE](LICENSE), [NOTICE](NOTICE), and [third-party notices](THIRD_PARTY_NOTICES.md). This distinction describes the current product workflow, not the removal of all legacy components.
 
 ---
 
@@ -248,6 +250,8 @@ make build-ios
 - [开源许可](LICENSE)
 - [第三方声明](THIRD_PARTY_NOTICES.md)
 
-### 上游与许可
+### 项目定位与许可
 
-本项目基于 [UW Makeability Lab 的 RASSAR](https://github.com/makeabilitylab/RASSAR) 二次开发，并保留原始 [MIT 许可](LICENSE)与版权声明；其他依赖见[第三方声明](THIRD_PARTY_NOTICES.md)。AnjuGuard 在此基础上扩展了适老化产品流程、H5 / FastAPI 链路、确定性整改规则、实时顾问与 iOS 原生增强能力。
+AnjuGuard 是自主开发的适老化居家安全评估与整改项目。当前评估主流程由 React / TypeScript 前端、FastAPI 服务、确定性整改规则与 iOS 原生采集能力组成，并非对 RASSAR 评估流程的扩展。
+
+[UW Makeability Lab 的 RASSAR](https://github.com/makeabilitylab/RASSAR) 是早期研究参考。仓库仍保留部分历史 iOS 工程文件与相关材料，其适用的版权与许可声明继续保留，见 [LICENSE](LICENSE)、[NOTICE](NOTICE) 与[第三方声明](THIRD_PARTY_NOTICES.md)。这里区分的是当前产品主流程，不代表所有历史组件均已移除。
